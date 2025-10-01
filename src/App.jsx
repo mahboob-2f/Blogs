@@ -1,8 +1,8 @@
-import appWriteUrl from './config/config.js'
+import config from './config/config.js'
 
 function App() {
     // console.log(import.meta.env.VITE_VAL);
-    console.log(appWriteUrl);
+    console.log(config.appWriteUrl);
     
   return (
     <>
